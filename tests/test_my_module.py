@@ -1,5 +1,5 @@
 import unittest
-from my_module.my_module.py import add, subtract
+from my_module.my_module import add, subtract
 
 class TestMyModule(unittest.TestCase):
     def test_add(self):
