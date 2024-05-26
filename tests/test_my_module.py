@@ -1,6 +1,6 @@
 # test_my_module.py
 import unittest
-from my_module import Calculator, square, cube, Average, ComplexNumber
+from my_module.my_module import Calculator, square, cube, Average, ComplexNumber
 
 class TestMyModule(unittest.TestCase):
     def setUp(self):
